@@ -20,6 +20,8 @@ def common_elements():
     return result
 
 
-print(common_elements())
+result = common_elements()
+print(result)
+print(result['resIntersection'])
 
 print('Thank you for using')
